@@ -1,0 +1,42 @@
+main {
+    @extend %font;
+    color: white;
+}
+
+
+h2{
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+h3{
+    word-spacing: 5px;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p{
+    word-spacing: 5px;
+    font-size: 20px;
+    color: black;
+}
+
+.enlaces-h2{
+    color: white;
+    border-top: 9px  white solid;
+    @extend %border;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}

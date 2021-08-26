@@ -1,0 +1,12 @@
+.header {
+    @extend %bg;
+    @extend %font;
+    color: white;
+    font-size: 30px;
+    border-bottom: 10px white solid;
+}
+
+nav ul li a {
+    margin-right: 20px;
+    color: white;
+}

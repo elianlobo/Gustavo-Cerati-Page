@@ -1,0 +1,20 @@
+footer {
+    @extend %font;
+    @extend %bg;
+    color: white;
+    font-size: 25px;
+    border-top: 10px white solid;
+    padding: 5px 0px 5px 30px;
+}
+
+.logos-footer {
+    display: inline;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    .logos {
+        padding: 15px 30px 15px 15px;
+        margin: 10px;
+    }
+}

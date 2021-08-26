@@ -1,0 +1,27 @@
+.contacto {
+    @extend %bg;
+    color: white;
+}
+
+.correo-area {
+   padding: 30px;
+   width: 40%;
+}
+
+.mensaje-area {
+   padding: 100px;
+   width: 100%;
+}
+
+.nombre-area {
+   padding: 30px;
+   width: 50%;
+}
+
+.enviar-boton {
+   padding: 20px;
+}
+
+.input {
+   padding: 20px;
+}

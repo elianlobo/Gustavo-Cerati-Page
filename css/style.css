@@ -1,0 +1,398 @@
+.header {
+  color: white;
+  font-size: 30px;
+  border-bottom: 10px white solid;
+}
+
+nav ul li a {
+  margin-right: 20px;
+  color: white;
+}
+
+main, .quien-fue, footer, .videos, .disco-ocho, .disco-siete, .disco-seis, .disco-cinco, .disco-cuatro, .disco-tres, .disco-dos, .disco-uno, .discografia, .header {
+  font-family: "Oswald", sans-serif;
+}
+
+.titulo, .contacto, footer, .videos, .discografia, .header {
+  background-color: black;
+}
+
+.enlaces-h2, .titulo {
+  border-bottom: 10px white solid;
+}
+
+.disco-ocho, .disco-siete, .disco-seis, .disco-cinco, .disco-cuatro, .disco-tres, .disco-dos, .disco-uno {
+  width: 35%;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  transition-property: background;
+  transition-duration: 2s;
+}
+
+.discografia {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.disco-uno {
+  background-color: #c00a2e;
+}
+
+.disco-dos {
+  background-color: #a79e03;
+}
+
+.disco-tres {
+  background-color: #083bb9;
+}
+
+.disco-cuatro {
+  background-color: #0c7c04;
+}
+
+.disco-cinco {
+  background-color: #003c64;
+}
+
+.disco-seis {
+  background-color: #dd1600;
+}
+
+.disco-siete {
+  background-color: #9c001f;
+}
+
+.disco-ocho {
+  background-color: #726c01;
+}
+
+.disco-uno:hover {
+  background: #99394c;
+}
+
+.disco-dos:hover {
+  background: #6d6918;
+}
+
+.disco-tres:hover {
+  background: #4c6ab8;
+}
+
+.disco-cuatro:hover {
+  background: #263f24;
+}
+
+.disco-cinco:hover {
+  background: #3e5869;
+}
+
+.disco-seis:hover {
+  background: #de6a5d;
+}
+
+.disco-siete:hover {
+  background: #99394c;
+}
+
+.disco-ocho:hover {
+  background: #6d6918;
+}
+
+.iframe-spotify {
+  width: 80%;
+  margin: 5px auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.videos {
+  color: white;
+  padding-bottom: 15px;
+}
+
+footer {
+  color: white;
+  font-size: 25px;
+  border-top: 10px white solid;
+  padding: 5px 0px 5px 30px;
+}
+
+.logos-footer {
+  display: inline;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.logos-footer .logos {
+  padding: 15px 30px 15px 15px;
+  margin: 10px;
+}
+
+.contacto {
+  color: white;
+}
+
+.correo-area {
+  padding: 30px;
+  width: 40%;
+}
+
+.mensaje-area {
+  padding: 100px;
+  width: 100%;
+}
+
+.nombre-area {
+  padding: 30px;
+  width: 50%;
+}
+
+.enviar-boton {
+  padding: 20px;
+}
+
+.input {
+  padding: 20px;
+}
+
+.quien-fue {
+  background-color: black;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  width: 100%;
+}
+
+.quien-fue-p {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+}
+
+.titulo {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 10px;
+}
+
+main {
+  color: white;
+}
+
+h2 {
+  font-size: 45px;
+  text-transform: uppercase;
+}
+
+h3 {
+  word-spacing: 5px;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+p {
+  word-spacing: 5px;
+  font-size: 20px;
+  color: black;
+}
+
+.enlaces-h2 {
+  color: white;
+  border-top: 9px white solid;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+@media only screen and (max-width: 430px) {
+  .titulo {
+    font-size: 80px;
+  }
+
+  .header {
+    font-size: 10px;
+    position: fixed;
+    border-bottom: 5px white solid;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .iframe-videos {
+    width: auto;
+    height: auto;
+  }
+
+  .quien-fue-p {
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .disco-uno {
+    width: 90%;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .disco-dos {
+    width: 90%;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .disco-tres {
+    width: 90%;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .disco-cuatro {
+    width: 90%;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .disco-cinco {
+    width: 90%;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .disco-seis {
+    width: 90%;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .disco-siete {
+    width: 90%;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .disco-ocho {
+    width: 90%;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+}
+@media only screen and (min-width: 431px) and (max-width: 768px) {
+  .header {
+    font-size: 15px;
+    position: fixed;
+    border-bottom: 5px white solid;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .iframe-videos {
+    width: auto;
+    height: auto;
+  }
+
+  .quien-fue-p {
+    width: 100%;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+
+  .disco-uno {
+    width: 70%;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .disco-dos {
+    width: 70%;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .disco-tres {
+    width: 70%;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .disco-cuatro {
+    width: 70%;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .disco-cinco {
+    width: 70%;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .disco-seis {
+    width: 70%;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .disco-siete {
+    width: 70%;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .disco-ocho {
+    width: 70%;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css..map */

@@ -1,0 +1,166 @@
+@media only screen and (max-width: 430px) {
+    .titulo{
+        font-size: 80px;
+    }
+
+    .header{
+        font-size: 10px;
+        position: fixed;       
+        border-bottom: 5px white solid;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .iframe-videos{
+        width: auto ;
+        height: auto;
+    }
+
+    .quien-fue-p{
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    .disco-uno {
+        width: 90%;
+        margin: 20px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .disco-dos {
+        width: 90%;
+        margin: 20px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .disco-tres {
+        width: 90%;
+        margin: 20px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .disco-cuatro {
+        width: 90%;
+        margin: 20px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .disco-cinco {
+        width: 90%;
+        margin: 20px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .disco-seis {
+        width: 90%;
+        margin: 20px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .disco-siete {
+        width: 90%;
+        margin: 20px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .disco-ocho {
+        width: 90%;
+        margin: 20px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (min-width: 431px) and (max-width:768px){
+    .header {
+        font-size: 15px;
+        position: fixed;       
+        border-bottom: 5px white solid;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .iframe-videos{
+        width: auto ;
+        height: auto;
+    }
+
+    .quien-fue-p{
+        width: 100%;
+        font-size: 17px;
+        text-align: center;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    
+    .disco-uno {
+        width: 70%;
+        margin: 20px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .disco-dos {
+        width: 70%;
+        margin: 20px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .disco-tres {
+        width: 70%;
+        margin: 20px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .disco-cuatro {
+        width: 70%;
+        margin: 20px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .disco-cinco {
+        width: 70%;
+        margin: 20px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .disco-seis {
+        width: 70%;
+        margin: 20px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .disco-siete {
+        width: 70%;
+        margin: 20px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .disco-ocho {
+        width: 70%;
+        margin: 20px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+}

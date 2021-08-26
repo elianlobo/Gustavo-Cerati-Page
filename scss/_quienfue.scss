@@ -1,0 +1,36 @@
+.quien-fue {
+    @extend %font;
+    background-color: black;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 100%;
+}
+
+.quien-fue-p {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white
+}
+
+.titulo{
+    @extend %bg;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    @extend %border;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 10px;  
+}
