@@ -125,9 +125,12 @@ footer {
   flex-flow: row wrap;
   justify-content: center;
 }
-.logos-footer .logos {
-  padding: 15px 30px 15px 15px;
-  margin: 10px;
+
+.logos {
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
 }
 
 .contacto {
@@ -205,6 +208,14 @@ p {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+li {
+  list-style: none;
+}
+
+footer {
+  padding: 0px;
 }
 
 a:link {
@@ -298,6 +309,10 @@ a:visited {
     margin: 20px;
     padding: 5px;
     border-radius: 10px;
+  }
+
+  .logos {
+    padding: 30px;
   }
 }
 @media only screen and (min-width: 431px) and (max-width: 768px) {
