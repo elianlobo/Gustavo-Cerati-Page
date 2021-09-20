@@ -4,19 +4,20 @@ footer {
     color: white;
     font-size: 25px;
     border-top: 10px white solid;
-    padding: 5px 0px 5px 30px;
+    padding: 5px 0px 5px 30px; 
+    .logos-footer {
+        display: inline;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .logos {
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+    }
 }
 
-.logos-footer {
-    display: inline;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-}
 
-.logos {
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
-}
+

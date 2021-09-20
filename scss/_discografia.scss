@@ -10,84 +10,133 @@
 }
 
 .disco-uno {
+
     @extend %font;
+
     @extend %discos;
+
     @include bg-spotify (#c00a2e);
+
+    &:hover{
+
+      background:#99394c;
+
+      }
+
 }
 
 .disco-dos {
+
     @extend %font;
+
     @extend %discos;
+
     @include bg-spotify (#a79e03);
+
+    &:hover{
+
+      background:#6d6918 ;
+
+      }
+
 }
 
 .disco-tres {
+
     @extend %font;
+
     @extend %discos;
+
     @include bg-spotify (#083bb9);
+
+    &:hover{
+
+      background:#4c6ab8 ;
+
+      }
+
 }
 
 .disco-cuatro {
+
     @extend %font;
+
     @extend %discos;
+
     @include bg-spotify (#0c7c04);
+
+    &:hover{
+
+      background:#263f24 ;
+
+      }
+
 }
 
 .disco-cinco {
+
     @extend %font;
+
     @extend %discos;
+
     @include bg-spotify (#003c64);
+
+    &:hover{
+
+      background:#3e5869 ;
+
+      }
+
 }
 
 .disco-seis {
+
     @extend %font;
+
     @extend %discos;
+
     @include bg-spotify (#dd1600);
+
+    &:hover{
+
+      background:#de6a5d ;
+
+      }
+
 }
 
 .disco-siete {
+
     @extend %font;
+
     @extend %discos;
+
     @include bg-spotify (#9c001f);
+
+    &:hover{
+
+      background:#99394c ;
+
+      }
+
 }
 
 .disco-ocho {
+
     @extend %font;
+
     @extend %discos;
+
     @include bg-spotify (#726c01);
+
+    &:hover{
+
+      background:#6d6918 ;
+
+      }
+
 }
 
-.disco-uno:hover {
-    background:#99394c ;
- }
-
- .disco-dos:hover {
-     background: #6d6918 ;
-  }
-
- .disco-tres:hover {
-     background: #4c6ab8;
-  }
-
- .disco-cuatro:hover {
-     background: #263f24 ;
-  }
-
- .disco-cinco:hover {
-     background: #3e5869 ;
-  }
-
- .disco-seis:hover {
-     background: #de6a5d ;
-  }
-
- .disco-siete:hover {
-     background:#99394c ;
-  }
-
- .disco-ocho:hover {
-     background: #6d6918;
-  }
 
   .iframe-spotify {
 

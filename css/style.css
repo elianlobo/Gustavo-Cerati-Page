@@ -39,63 +39,55 @@ main, .quien-fue, footer, .videos, .disco-ocho, .disco-siete, .disco-seis, .disc
 .disco-uno {
   background-color: #c00a2e;
 }
+.disco-uno:hover {
+  background: #99394c;
+}
 
 .disco-dos {
   background-color: #a79e03;
+}
+.disco-dos:hover {
+  background: #6d6918;
 }
 
 .disco-tres {
   background-color: #083bb9;
 }
+.disco-tres:hover {
+  background: #4c6ab8;
+}
 
 .disco-cuatro {
   background-color: #0c7c04;
+}
+.disco-cuatro:hover {
+  background: #263f24;
 }
 
 .disco-cinco {
   background-color: #003c64;
 }
+.disco-cinco:hover {
+  background: #3e5869;
+}
 
 .disco-seis {
   background-color: #dd1600;
+}
+.disco-seis:hover {
+  background: #de6a5d;
 }
 
 .disco-siete {
   background-color: #9c001f;
 }
-
-.disco-ocho {
-  background-color: #726c01;
-}
-
-.disco-uno:hover {
-  background: #99394c;
-}
-
-.disco-dos:hover {
-  background: #6d6918;
-}
-
-.disco-tres:hover {
-  background: #4c6ab8;
-}
-
-.disco-cuatro:hover {
-  background: #263f24;
-}
-
-.disco-cinco:hover {
-  background: #3e5869;
-}
-
-.disco-seis:hover {
-  background: #de6a5d;
-}
-
 .disco-siete:hover {
   background: #99394c;
 }
 
+.disco-ocho {
+  background-color: #726c01;
+}
 .disco-ocho:hover {
   background: #6d6918;
 }
@@ -118,15 +110,13 @@ footer {
   border-top: 10px white solid;
   padding: 5px 0px 5px 30px;
 }
-
-.logos-footer {
+footer .logos-footer {
   display: inline;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
-
-.logos {
+footer .logos {
   padding-top: 30px;
   padding-left: 30px;
   padding-right: 30px;
@@ -136,12 +126,10 @@ footer {
 .contacto {
   color: white;
 }
-
-.enviar-boton {
+.contacto .enviar-boton {
   padding: 20px;
 }
-
-.input {
+.contacto .input {
   padding: 20px;
 }
 
